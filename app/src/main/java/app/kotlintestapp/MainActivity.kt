@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity()  {
 
         add.setOnClickListener {
 
+            //testing
             itemlist.add(edTxt.text.toString())
             listView.adapter =  adapter
             adapter.notifyDataSetChanged()
